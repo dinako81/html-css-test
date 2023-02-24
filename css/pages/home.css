@@ -3,12 +3,31 @@
 @import "./../components/btn.css";
 @import "./../3rd-party/font-awesome.min.css";
 
-.container {
-  margin: 0;
-  padding: 0;
+/* header start */
+.logo {
+  height: 40px;
+  width: 60px;
+  object-fit: contain;
+  object-position: left;
+  float: left;
 }
 
-/* header start */
+.main-menu {
+  float: right;
+  margin-top: 12px;
+}
+.main-menu > .link {
+  display: inline-block;
+  margin-left: 2em;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 1em;
+}
+
+.link:first-child {
+  margin-left: 0px;
+}
 
 /* header end */
 
