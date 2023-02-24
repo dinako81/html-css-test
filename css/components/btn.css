@@ -1,0 +1,21 @@
+.btn {
+  font-family: "Hind", sans-serif;
+  background: #fff;
+  padding: 15px 33px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #0000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0, 7em;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.btn-1 {
+  background: #0000;
+}

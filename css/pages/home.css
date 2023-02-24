@@ -1,0 +1,40 @@
+@import "./../base/base.css";
+@import "./../base/layout.css";
+@import "./../components/btn.css";
+@import "./../3rd-party/font-awesome.min.css";
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+/* header start */
+
+/* header end */
+
+/* hero start */
+.bgk {
+  background-color: #74c69d;
+}
+
+/* hero end */
+
+/* main start */
+
+/* footer start */
+.socials {
+  float: left;
+}
+.icon {
+  font: #ffff;
+}
+.fa {
+}
+
+.copyrigh {
+  float: right;
+}
+/* footer end */
+
+.social-item {
+}
