@@ -8,6 +8,10 @@
   background-color: #74c69d;
 }
 
+.center {
+  justify-content: center;
+}
+
 /* header start */
 .logo {
   height: 40px;
@@ -15,6 +19,7 @@
   object-fit: contain;
   object-position: left;
   float: left;
+  /* margin-left: 135px; */
 }
 
 header .text {
@@ -28,6 +33,7 @@ header .text {
 
 .main-menu {
   float: right;
+  /* margin-right: 130px; */
 }
 
 .main-menu > .link {
@@ -82,19 +88,75 @@ hero > a > .btn {
 
 main .row {
   display: flex;
+  flex-wrap: wrap;
+}
+
+main .row-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main .text-1 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #74c69d;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+main .text-2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #000;
+  font-weight: 700;
+}
+
+main .text-3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 400;
+}
+
+main .row-2 {
+  display: flex;
   flex-direction: row;
+  gap: 40px;
+}
+
+.btn-1 {
+  background: #0000;
+  padding: 15px 33px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.7em;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+  display: block;
 }
 
 /* main end */
 
 /* footer start */
+footer {
+  margin-bottom: 50px;
+}
+
 .socials {
   float: left;
 }
 .socials > .icon {
   margin-right: 1em;
-  font-size: 12px;
-  line-height: 1em;
+  height: 18px;
+  width: 21.87px;
   text-decoration: none;
   color: #ffff;
 }
